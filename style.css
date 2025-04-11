@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+  }
+  .navbar {
+    height: 100px;
+    background-color: #0072aa;
+    display: flex;
+    
+    align-items: center;
+    
+    
+  
+  }
+
+  .navbar-logo{
+    height:100px;
+    width: 100px;
+
+    
+  }
+
+  .logo {
+    background-image:url("unnamed.png") ;
+    background-size: cover;
+    height: 100px;
+    width:100px;
+  }
+
+body{
+    background-image: url('background_calculator.jpg'); /* Path to your image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* <-- This makes it "static" when scrolling */
+    background-position: center;
+    font-family: sans-serif;
+    
+  
+   
+  }
+    
+  
+
+  /**menu bar option1**/
+  .navmenu-option1-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+    
+
+  .navmenu-option1{
+    display: flex;
+    margin-left: 5px;
+    
+  }
+
+  /**loan calculator**/
+  .loan-calculator {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  }
+  
+  .loan-calculator h2 {
+    margin-bottom: 20px;
+  }
+  
+  .loan-calculator input[type="number"] {
+   width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    align-items: center;
+  }
+  
+  .loan-calculator input[type="range"] {
+    width: 100%;
+  }
+
+
+  /**loan tenure**/
+  .loan-tenure {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .loan-tenure h2 {
+    margin-bottom: 20px;
+  }
+  
+  .loan-tenure input[type="number"] {
+   width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    align-items: center;
+  }
+  
+  .loan-tenure input[type="range"] {
+    width: 100%;
+  }
+
+/**intrest rates**/
+.interest-rate {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .interest-rate h2 {
+    margin-bottom: 20px;
+  }
+  
+  .interest-rate input[type="number"] {
+   width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    align-items: center;
+  }
+  
+  .interest-rate input[type="range"] {
+    width: 100%;
+  }
+
+/**results bar**/
+.result-bar {
+    margin-top: 30px;
+    padding: 20px;
+    background-color:white;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .result-bar h2 {
+    margin-bottom: 15px;
+    color: #2e7d32;
+  }
+  
+
+  .option1 {
+    display: inline-block;
+    white-space: nowrap; /* Prevent the text from wrapping */
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold;
+    color: black;
+    animation: scrollText 10s linear infinite; /* Apply the animation */
+  }
+  
+  /* Animation for scrolling */
+  @keyframes scrollText {
+    0% {
+      transform: translateX(300%); /* Start from the right */
+    }
+    100% {
+      transform: translateX(0%); /* Move to the left */
+    }
+  }
+  
